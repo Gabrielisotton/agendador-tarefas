@@ -2,7 +2,6 @@ package com.isotton.agendadortarefas.infrastructure.entity;
 
 import com.isotton.agendadortarefas.infrastructure.enums.StatusNotificacaoEnum;
 import lombok.*;
-import org.springframework.cglib.core.Local;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -24,7 +23,7 @@ public class TarefasEntity {
     private String nomeTarefa;
     private String descricao;
     private LocalDateTime dataCriacao;
-    private LocalDateTime dataEvendo;
+    private LocalDateTime dataEvento;
     private String emailUsuario;
     private LocalDateTime dataAlteracao;
     private StatusNotificacaoEnum statusNotificacaoEnum;
